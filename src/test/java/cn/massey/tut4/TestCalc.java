@@ -9,12 +9,21 @@ import org.junit.Test;
  */
 public class TestCalc
 {
+    
     @Test
     public void teatAdd()
     {
 	    Calc cal = new Calc();
 	    int res = cal.add(3, 5);
 	    Assert.assertEquals(8, res);
+    }
+
+    @Test
+    public void testSubtract()
+    {
+	    Calc cal = new Calc;
+	    int res = cal.subtract(8, 5);
+	    Assert.assertEquals(3, res);
     }
 }
 
