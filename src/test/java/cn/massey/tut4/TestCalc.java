@@ -21,7 +21,7 @@ public class TestCalc
     @Test
     public void testSubtract()
     {
-	    Calc cal = new Calc;
+	    Calc cal = new Calc();
 	    int res = cal.subtract(8, 5);
 	    Assert.assertEquals(3, res);
     }
